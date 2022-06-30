@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+@media (max-width: 480px) {
+    #wrapper {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+}
+    
+@media (min-width: 480px) and (max-width: 1024px) {
+    #wrapper {
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+}
+    
+
+#wrapper {
+    display: flex;
+    margin: 30px;
+}
+
+.card {
+    margin-right: 30px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: radial-gradient(circle at 0% 0%, #cacaca 0, #a0a0a0 12.5%, #9d9d9d 25%, #b9b8b8 37.5%, #dcdcdc 50%, #d8d8d8 62.5%, #8f8f8f 75%, #9b9b9b 87.5%, #878787 100%);
+}
+
+.titolo {
+    background-image: radial-gradient(circle at 0% 0%, #cacaca 0, #a0a0a0 12.5%, #919191 25%, #acacac 37.5%, #d9d9d9 50%, #c2c2c2 62.5%, #8f8f8f 75%, #9b9b9b 87.5%, #878787 100%);
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 5px;
+}
+
+.titolo-sezione-sinistra {
+    display: flex;
+}
+
+.titolo-sezione-destra {
+    display: flex;
+}
+
+.nome {
+    font-weight: 600;
+}
+
+.data {
+    color: white;
+}
+
+.puntini {
+    margin: auto;
+    margin-right: 15px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.immagine-profilo {
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+
+.icona-profilo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#gattino1 {
+    width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.interazioni {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    height: 4%;
+    padding-left: 10px;
+}
+
+.fumetto {
+    padding-left: 10px;
+}
+
+.gatto {
+    font-weight: bold;
+}
+
+.testo {
+    margin: 15px;
+}
+
